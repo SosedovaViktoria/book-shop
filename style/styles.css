@@ -1,0 +1,51 @@
+body {
+    background-color: #c7c0eb;
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+.container_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header_style {
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 34%, rgba(174, 163, 233, 1) 100%);
+}
+
+.logoBody {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image_header {
+    height: 110px;
+}
+
+.logo_img {
+    width: 35%;
+}
+
+.logoText {
+    margin: 0;
+}
+.basket_img {
+    width: 2.5rem;
+}
+.basketBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.basketText {
+    margin: 0;
+}
+.container {
+    background-color: #9b91ce;
+    padding: 5%;
+}
